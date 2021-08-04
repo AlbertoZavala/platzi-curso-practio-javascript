@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porcentajes y descuentos | Curso práctico de JavaScript en Platzi</title>
+</head>
+<body>
+    <header>
+        <h1>
+            Porcentajes y descuentos
+        </h1>
+        <p>Este es el segundo taller del Curso Práctico de JavaScript</p>
+    </header>
+
+    <section>
+        <h2>Calcula el precio a pagar de tus productos con descuento</h2>
+
+        <form>
+            <label for="InputPrecio">Precio</label>
+            <input id="InputPrecio"  type="number">
+
+            <label for="InputDescuento">Descuento</label>
+            <input id="InputDescuento" type="number">
+
+            <button type="button" onclick="calcularPrecio()">
+                Calcular precio con descuento
+            </button>
+            
+        </form>
+    </section>
+
+    <p>
+        <h4>Precio con descuento: <span id="precioResultado"></span> </h4>
+    </p>
+
+    <script src="./descuentos.js"></script>
+</body>
+</html>
