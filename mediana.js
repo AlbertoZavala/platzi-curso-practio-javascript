@@ -3,15 +3,7 @@ const lista1 = [
  40000,   
  200,
  500, 
-].sort(function(a, b){
-    debugger;
-    console.log(a)
-    console.log(b)
-    debugger;
-    var yy = a - b;
-    debugger;
-    console.log(yy)
-    debugger;
+].sort(function(a, b){    
     return a - b;
 });
 
